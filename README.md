@@ -95,9 +95,3 @@ Genera `Models/` y `Data/TechStoreDbFirstContext.cs`. Haz commit de lo generado 
 ./scripts/contar_lineas.sh                       # líneas de código por tecnología
 ```
 Registra tiempo y errores en `scripts/bitacora.csv` y `scripts/errores.csv`. Para la prueba de cambio, sigue `CAMBIO_BD/README.md`.
-
-## 9. Informe técnico
-```bash
-python3 Informe/generar_informe.py resultados.csv
-```
-Completa antes el diccionario `DATOS` (autores, entorno, métricas) y los apartados `[COMPLETAR]` (resumen, errores, análisis y conclusiones), que deben basarse en **tus** resultados. Resultado: `Informe/Informe_TechStore.pdf` (5 páginas la plantilla; unas 9 con gráficas y tablas).
