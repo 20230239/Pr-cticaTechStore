@@ -94,4 +94,4 @@ Genera `Models/` y `Data/TechStoreDbFirstContext.cs`. Haz commit de lo generado 
 ```bash
 ./scripts/contar_lineas.sh                       # líneas de código por tecnología
 ```
-Registra tiempo y errores en `scripts/bitacora.csv` y `scripts/errores.csv`. Para la prueba de cambio, sigue `CAMBIO_BD/README.md`.
+Registra tiempo y errores en `scripts/bitacora.csv` y `scripts/errores.csv`. 
